@@ -4,20 +4,14 @@
     box-sizing: border-box;
 }
 
-.container{
-    margin: auto;
-    background-color: red;
-    width: 80%;
-    height: 100vh;
-    /* border: solid 2px black; */
-    position: relative;
-}   
+
 #number-shoes{
     position: fixed;
     width: 80%;
     left: 10%;
     z-index: 1;
 }
+
 
 #number-shoes span{
     background-color: darkgray;
@@ -31,19 +25,29 @@
     
 }   
 
+
+/* shose nr1 */
+
+
+.container{
+    margin: auto;
+    background-color: red;
+    width: 80%;
+    height: 100vh;
+    position: relative;
+}   
+
+
 .container .container-shose{
     width: 70%;
     height: 70%;
-    position: absolute;
-    left: 15%;
-    top: 15%; 
+    transform: translateX(20%) translateY(20%);
   
 }
 
 .container .container-shose .container-shose-1{
-    position: absolute;
-    left: 20%;
-    top: 5%; 
+
+    transform: translateX(35%) translateY(20%);
 
     width: 60%;
     height: 60%;
@@ -63,7 +67,33 @@
 }
 
 
+.container .container-shose:hover{
+    background-color: honeydew;
+}
 
+/* shose nr 2 */
+
+#container-2{
+    background-color: green;
+}
+
+#shose-2{
+    background-image: url(img/02.png);
+}
+
+/* shose nr3 */
+
+#container-3{
+    background-color: yellow;
+}
+
+#shose-3{
+    background-image: url(img/03.png);
+}
+
+.text-shose-3{
+    color: green;
+}
 
 /* utility  */
 
