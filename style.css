@@ -3,3 +3,70 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.container{
+    margin: auto;
+    background-color: red;
+    width: 80%;
+    height: 100vh;
+    /* border: solid 2px black; */
+    position: relative;
+}   
+#number-shoes{
+    position: fixed;
+    width: 80%;
+    left: 10%;
+    z-index: 1;
+}
+
+#number-shoes span{
+    background-color: darkgray;
+    width: 2%;
+    margin-right: 4%;
+    margin-top: 2%;
+    list-style: none;
+    float: right;
+    text-align: center;
+    border-radius: 50%;
+    
+}   
+
+.container .container-shose{
+    width: 70%;
+    height: 70%;
+    position: absolute;
+    left: 15%;
+    top: 15%; 
+  
+}
+
+.container .container-shose .container-shose-1{
+    position: absolute;
+    left: 20%;
+    top: 5%; 
+
+    width: 60%;
+    height: 60%;
+    background-image: url(img/01.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.container .container-shose .container-shose-1 .best-shoes{
+    color: chartreuse;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+
+
+
+/* utility  */
+
+.border{
+    border: solid 2px black;
+}
